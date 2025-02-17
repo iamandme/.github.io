@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>I am and me - Encouraging Women to Live Alcohol-Free</title>
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: #f2f2f2;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #2e8b57;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    nav ul li {
+      margin: 0 10px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px 10px;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #2e8b57;
+    }
+    /* Hero section with background image */
+    .hero {
+      background: url('your-hero-image.jpg') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+      position: relative;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+      position: relative;
+      z-index: 1;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #2e8b57;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    footer {
+      background: #f2f2f2;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    /* Responsive design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .hero {
+        height: 300px;
+      }
+      .hero h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>I am and me</h1>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#identity">Who a Woman Is</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h2>Encouraging Women to Live Alcohol-Free</h2>
+  </section>
+
+  <!-- Mission Section -->
+  <section id="mission">
+    <h2>Our Mission</h2>
+    <p>
+      We believe in discovering a new way to live—one that celebrates the beauty and strength within every woman. This is not AA or a traditional church setting; it’s a safe haven where women can gather to share life’s challenges and triumphs. Our focus is on the positive, nurturing a space where hope and resilience flourish. We look to God to remind us of the deep, unconditional love that defines who we are.
+    </p>
+  </section>
+
+  <!-- Who a Woman Is Section -->
+  <section id="identity">
+    <h2>Who a Woman Is</h2>
+    <p>
+      A woman is a force of nature—strong, firmly grounded, and deeply rooted. Like the nourishing water that courses through the earth, she carries life within her, and wherever she goes, everything around her blossoms. There is far more power in her to overcome life’s challenges than any bottle has to weigh her down.
+    </p>
+    <p>
+      She embodies beauty in its purest form, breathing life into the world and populating the earth with her radiance. As God’s final creation, she is the ultimate finishing touch—a masterpiece crafted with care. When she places her trust in God, looking to Him as her steadfast foundation, her grounding transforms into unwavering strength. In embracing His love, she acknowledges that every detail in her creation was intentional—God makes no mistakes.
+    </p>
+    <p>
+      Here, we celebrate that women are royalty, heiresses of greatness, each a living testament to divine artistry.
+    </p>
+  </section>
+
+  <!-- Community & Scriptures Section -->
+  <section id="community">
+    <h2>Community & Support</h2>
+    <p>
+      At “I am and me,” we believe that together, we can overcome. Our gatherings provide a safe space to share, heal, and grow. Here, you’ll find a community that listens, understands, and uplifts—helping you move beyond challenges into a life filled with hope, love, and empowerment.
+    </p>
+    <h3>Scriptures of Encouragement</h3>
+    <ul>
+      <li><strong>Galatians 3:26:</strong> "For in Christ Jesus you are all children of God, through faith."</li>
+      <li><strong>Galatians 4:7:</strong> "So you are no longer a slave, but God’s child; and since you are his child, God has made you also an heir."</li>
+      <li><strong>Zephaniah 3:17:</strong> "The LORD your God is with you, the Mighty Warrior who saves. He will take great delight in you; in his love he will no longer rebuke you, but will rejoice over you with singing."</li>
+      <li><strong>1 John 3:1:</strong> "See what great love the Father has lavished on us, that we should be called children of God!"</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Connect With Us</h2>
+    <p>
+      Your new beginning is here, and we’re excited to welcome you into our community of empowered women.
+    </p>
+    <p><strong>Website:</strong> [Your Website URL]</p>
+    <p><strong>Email:</strong> [Your Email Address]</p>
+    <p><strong>Phone:</strong> [Your Phone Number]</p>
+    <p><strong>Social Media:</strong> [Handles/Links]</p>
+    <p>
+      Embrace the journey—your life, your beauty, your power. We’re here to walk this path with you.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 I am and me. All rights reserved.</p>
+  </footer>
+</body>
+</html>
